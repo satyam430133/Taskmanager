@@ -3,6 +3,6 @@ from django.shortcuts import render
 from .views import *
 
 urlpatterns = [
-    path('',home),
+    path('',home,name='index'),
     path('register',registration,name='register'),
 ]
